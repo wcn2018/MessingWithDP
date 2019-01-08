@@ -35,6 +35,7 @@ def lis(a):
         returnLength = extra[len(a)-1]
 
         #the actual constructor:
+        #ignore this it doesnt work.
         allLIS = [] #a list of all the longest integer substrings
         seed = [ind for ind in range(0,len(nextVal)) if nextVal[ind] == []]
         #^ a list of the indices in a where the starting values are
